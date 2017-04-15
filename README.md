@@ -1,7 +1,7 @@
-# Saklar Matrix 1 baris x N kolom  Calculator
+# OBE Calclutator
 
 Sebuah kalkulator matrix yang dibuat untuk membudahkan operasi
-baris kali element sehingga menhasikan matrix juga.
+baris kali element sehingga menghasikan matrix juga.
 
 ### contoh masalah yang diselesaikan:
 
