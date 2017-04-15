@@ -5,7 +5,7 @@ var konsanta;
 
 
 var matrixC = document.querySelectorAll(".C");
-var fire = document.querySelector("button");
+var fire = document.querySelector("#fire");
 
 
 fire.addEventListener("click", function() {
@@ -55,3 +55,39 @@ function tulisHasil(node, hasil) {
     node[i].value = hasil[i].toFraction(true);
   }
 }
+
+
+
+/////////////////////// generate banyak kolom /////////////////
+// var banyakKolom = parseInt(document.querySelector("#kolom").value) + 1;
+var generate = document.querySelector("#generate");
+//
+// var baseA = document.querySelector("#baseA");
+// var baseB = document.querySelector("#baseB");
+// var baseC = document.querySelector("#baseC");
+//
+// var inputA = document.createElement("td");
+// inputA.innerHTML = '<td><input class="A" type="text" value="0"></td>';
+//
+// var inputB = document.createElement("td");
+// inputB.innerHTML = '<td><input class="B" type="text" value="0"></td>';
+//
+// var inputC = document.createElement("td");
+// inputC.innerHTML = '<td><input class="C" type="text" value="0"></td>';
+//
+//
+//
+generate.addEventListener("click", function() {
+  alert("fitur ini belum tersedia");
+//
+//   if (baseA.length < banyakKolom) {
+//     for (var i = matrixC.length; i <= banyakKolom; i++) {
+//       baseA.appendChild(inputA);
+//       baseB.appendChild(inputB);
+//       baseC.appendChild(inputC);
+//     }
+//   } else {
+//
+//   }
+//
+});

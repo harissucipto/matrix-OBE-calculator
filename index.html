@@ -7,6 +7,15 @@
   <body>
     <main>
       <h1>OBE Matirx Calculator</h1>
+
+      <div>
+        <p>
+          Generate Banyak Format(kolom):
+          <input type="text" id="kolom" value="5" />
+          <button id="generate">Generate</button>
+        </p>
+      </div>
+
       <table>
         <tr>
           <th>Format</th>
@@ -16,7 +25,7 @@
           <th>4</th>
           <th>5</th>
         </tr>
-        <tr>
+        <tr id="baseA">
           <th>A:</th>
           <td><input class="A" type="text" value="0"></td>
           <td><input class="A" type="text" value="0"></td>
@@ -24,7 +33,7 @@
           <td><input class="A" type="text" value="0"></td>
           <td><input class="A" type="text" value="0"></td>
         </tr>
-        <tr>
+        <tr id="baseB">
           <th>B:</th>
           <td><input class="B" type="text" value="0"></td>
           <td><input class="B" type="text" value="0"></td>
@@ -32,7 +41,7 @@
           <td><input class="B" type="text" value="0"></td>
           <td><input class="B" type="text" value="0"></td>
         </tr>
-        <tr>
+        <tr id="baseC">
           <th>hasil C:</th>
           <td><input class="C" type="text" value="0"></td>
           <td><input class="C" type="text" value="0"></td>
@@ -42,9 +51,9 @@
         </tr>
       </table>
       <p>C =
-        (<input id="operasi" type="text"/> * A )+ B
+        (<input id="operasi" type="text" value="1"/> * A )+ B
       </p>
-      <button>Temukan (C) Hasilnya</button>
+      <button id="fire">Temukan (C) Hasilnya</button>
     </main>
     <div id="hasil">
 
