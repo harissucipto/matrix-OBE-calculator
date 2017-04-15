@@ -1,0 +1,58 @@
+input[type="text"] {
+  max-width: 80px;
+  max-height: 30px;
+  line-height: 5px;
+  font-family: roboto, monospace;
+  font-weight: bold;
+  padding: 2px;
+}
+
+
+.A {
+  background-color: lime;
+}
+
+.C {
+  background-color: yellow;
+}
+
+h1, footer {
+  background-color: rgb(10, 61, 65);
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+container {
+  padding-bottom: 20px;
+  min-width: 500px;
+  border: 2px solid black;
+}
+
+
+.o {
+  padding-left: 30px;
+  font-family: cursive;
+}
+
+#operasi, #kolom{
+  width: 50px;
+  border-bottom: 1 px solid black;
+}
+
+main {
+  font-family: cursive;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+
+button {
+  padding: 5px;
+  background-color: rgb(58, 241, 175);
+  border-radius: 10%;
+}

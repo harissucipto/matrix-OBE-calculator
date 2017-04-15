@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>MatrixOBECalculator</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <header>
+        <h1>OBE Matirx Calculator</h1>
+    </header>
     <main>
-      <h1>OBE Matirx Calculator</h1>
-
       <div>
         <p>
           Generate Banyak Format(kolom):
-          <input type="text" id="kolom" value="5" />
+          <input type="text" id="kolom" value="5" disabled="true"/>
           <button id="generate">Generate</button>
         </p>
       </div>
@@ -50,14 +52,15 @@
           <td><input class="C" type="text" value="0"></td>
         </tr>
       </table>
-      <p>C =
-        (<input id="operasi" type="text" value="1"/> * A )+ B
+      <p class="o">C =
+        ( <input id="operasi" type="text" value="1"/> * A )+ B
       </p>
       <button id="fire">Temukan (C) Hasilnya</button>
     </main>
-    <div id="hasil">
 
-    </div>
+    <footer>
+      <small>Created  and Code by Haris Sucipto</small>
+    </footer>
 
     <script type="text/javascript" src="fraction.min.js"></script>
     <script type="text/javascript" src="main.js">
