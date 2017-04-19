@@ -1,69 +1,115 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>MatrixOBECalculator</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-        <h1>OBE Matirx Calculator</h1>
-    </header>
-    <main>
-      <div>
-        <p>
-          Generate Banyak Format(kolom):
-          <input type="text" id="kolom" value="5" disabled="true"/>
-          <button id="generate">Generate</button>
-        </p>
-      </div>
 
-      <table>
-        <tr>
-          <th>Format</th>
-          <th>1</th>
-          <th>2</th>
-          <th>3</th>
-          <th>4</th>
-          <th>5</th>
-        </tr>
-        <tr id="baseA">
-          <th>A:</th>
-          <td><input class="A" type="text" value="0"></td>
-          <td><input class="A" type="text" value="0"></td>
-          <td><input class="A" type="text" value="0"></td>
-          <td><input class="A" type="text" value="0"></td>
-          <td><input class="A" type="text" value="0"></td>
-        </tr>
-        <tr id="baseB">
-          <th>B:</th>
-          <td><input class="B" type="text" value="0"></td>
-          <td><input class="B" type="text" value="0"></td>
-          <td><input class="B" type="text" value="0"></td>
-          <td><input class="B" type="text" value="0"></td>
-          <td><input class="B" type="text" value="0"></td>
-        </tr>
-        <tr id="baseC">
-          <th>hasil C:</th>
-          <td><input class="C" type="text" value="0"></td>
-          <td><input class="C" type="text" value="0"></td>
-          <td><input class="C" type="text" value="0"></td>
-          <td><input class="C" type="text" value="0"></td>
-          <td><input class="C" type="text" value="0"></td>
-        </tr>
-      </table>
-      <p class="o">C =
-        ( <input id="operasi" type="text" value="1"/> * A )+ B
-      </p>
-      <button id="fire">Temukan (C) Hasilnya</button>
-    </main>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <title>MatrixOBECalculator</title>
+        <link rel="stylesheet"
+            href="styles.css">
+    </head>
 
-    <footer>
-      <small>Created  and Code by Haris Sucipto</small>
-    </footer>
+    <body>
+        <header>
+            <h1>OBE Matirx Calculator</h1>
+        </header>
+        <main>
+            <div>
+                <p>
+                    Generate Banyak Format(kolom):
+                    <input type="text"
+                        id="kolom"
+                        value="5"
+                        disabled="true" />
+                    <button id="generate">Generate</button>
+                </p>
+            </div>
 
-    <script type="text/javascript" src="fraction.min.js"></script>
-    <script type="text/javascript" src="main.js">
-    </script>
-  </body>
+            <div class="tabel">
+                <table>
+                    <tr>
+                        <th>Format</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                    </tr>
+                    <tr id="baseA">
+                        <th>A:</th>
+                        <td><input class="A"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="A"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="A"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="A"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="A"
+                                type="number"
+                                placeholder="0"></td>
+                    </tr>
+                    <tr id="baseB">
+                        <th>B:</th>
+                        <td><input class="B"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="B"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="B"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="B"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="B"
+                                type="number"
+                                placeholder="0"></td>
+                    </tr>
+                    <tr id="baseC">
+                        <th>hasil C:</th>
+                        <td><input class="C"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="C"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="C"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="C"
+                                type="number"
+                                placeholder="0"></td>
+                        <td><input class="C"
+                                type="number"
+                                placeholder="0"></td>
+                    </tr>
+                </table>
+            </div>
+            <p class="o">C = ( <input id="operasi"
+                    type="number"
+                    placeholder="1" /> * A )+ B
+            </p>
+            <button id="fire">Temukan (C) Hasilnya</button>
+        </main>
+
+        <footer>
+            <small>Created  and Code by Haris Sucipto</small>
+        </footer>
+
+        <script type="text/javascript"
+            src="fraction.min.js"></script>
+        <script type="text/javascript"
+            src="main.js">
+
+
+        </script>
+    </body>
+
 </html>
