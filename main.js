@@ -62,6 +62,7 @@ function mapNode( array, fn ) {
 }
 
 function tulisHasil( node, hasil ) {
+	console.log( hasil );
 	for ( var i = 0; i < hasil.length; i++ ) {
 		node[i].value = hasil[i].toFraction( true );
 	}

@@ -79,7 +79,7 @@ header h1 {
 }
 
 table tr td input {
-    width: 32px;
+    width: 52px;
 }
 
 /*responsive*/
@@ -91,5 +91,9 @@ table tr td input {
     main {
         width  : 100%;
         padding: 16px 0;
+    }
+
+    table tr td input {
+        width: 32px;
     }
 }
